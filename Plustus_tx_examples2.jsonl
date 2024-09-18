@@ -225,4 +225,4 @@ const tx = await lucid
 
 const signedTx = await tx.sign().complete();
 const txHash = await signedTx.submit();
-console.log("tid: " + txHash);</s>}"
+console.log("tid: " + txHash);</s>}""
